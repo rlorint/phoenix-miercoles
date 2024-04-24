@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Title } from './Title';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         >
           Learn React
         </a>
-        <span>Hello, Roxana</span>
+        <Title />
       </header>
     </div>
   );
