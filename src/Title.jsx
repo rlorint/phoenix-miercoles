@@ -1,3 +1,3 @@
-export const Title = () => {
-    return <span>Hello, Roxana! This is a git class</span>
+export const Title = ({greetings}) => {
+    return <span>{greetings}, Roxana! This is a git class</span>
 }
